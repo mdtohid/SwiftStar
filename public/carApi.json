@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png",
+        "title": "Model S",
+        "colorVariation": [
+            {
+                "id": "White",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Black",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Red",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            }
+        ],
+        "motorSizeVariation": [
+            {
+                "id": "littleMotor",
+                "title": "Average Motor size",
+                "price": "$71090",
+                "detail": "Dual Motor All-Wheel Drive"
+            },
+            {
+                "id": "bigMotor",
+                "title": "Big Motor size",
+                "price": "$86090",
+                "detail": "Tri Motor All-Wheel Drive"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3.png",
+        "title": "Model 3",
+        "colorVariation": [
+            {
+                "id": "White",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Black",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Red",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            }
+        ],
+        "motorSizeVariation": [
+            {
+                "id": "littleMotor",
+                "title": "Average Motor size",
+                "price": "$71090",
+                "detail": "Dual Motor All-Wheel Drive"
+            },
+            {
+                "id": "bigMotor",
+                "title": "Big Motor size",
+                "price": "$86090",
+                "detail": "Tri Motor All-Wheel Drive"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-X.png",
+        "title": "Model X",
+        "colorVariation": [
+            {
+                "id": "White",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Black",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Red",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            }
+        ],
+        "motorSizeVariation": [
+            {
+                "id": "littleMotor",
+                "title": "Average Motor size",
+                "price": "$71090",
+                "detail": "Dual Motor All-Wheel Drive"
+            },
+            {
+                "id": "bigMotor",
+                "title": "Big Motor size",
+                "price": "$86090",
+                "detail": "Tri Motor All-Wheel Drive"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png",
+        "title": "Model Y",
+        "colorVariation": [
+            {
+                "id": "White",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Black",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            },
+            {
+                "id": "Red",
+                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+            }
+        ],
+        "motorSizeVariation": [
+            {
+                "id": "littleMotor",
+                "title": "Average Motor size",
+                "price": "$71090",
+                "detail": "Dual Motor All-Wheel Drive"
+            },
+            {
+                "id": "bigMotor",
+                "title": "Big Motor size",
+                "price": "$86090",
+                "detail": "Tri Motor All-Wheel Drive"
+            }
+        ]
+    }
+]
