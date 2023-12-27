@@ -8,12 +8,18 @@ const Home = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/cars')
+        fetch('https://swift-star-server-side.vercel.app/cars')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, []);
 
     console.log(products);
+
+    // useEffect(() => {
+    //     fetch('https://swift-star-server-side-2sypcd2hd-mdtohid.vercel.app/cars')
+    //         .then(res => res.json())
+    //         .then(data => console.log(data))
+    // }, []);
 
     if (!products) {
         return <Loading></Loading>

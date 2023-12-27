@@ -6,16 +6,18 @@ import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
     const { productDetailsId } = useParams();
+    // console.log(productDetailsId);
 
     const [selectedCar, setSelectedCar] = useState({});
     const [selectedColor, setSelectedColor] = useState({});
     const [selectedSize, setSelectedSize] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:5000/cars')
+        fetch('https://swift-star-server-side.vercel.app/cars')
             .then(res => res.json())
-            .then(data => {
-                const selectedCar = data.filter(car => car.id === productDetailsId);
+            .then(async data => {
+                const selectedCar = await data.filter(car => car.id === productDetailsId);
+
                 setSelectedCar(selectedCar[0]);
                 setSelectedColor(selectedCar[0].colorVariation[0])
                 setSelectedSize(selectedCar[0].motorSizeVariation[0])
@@ -34,7 +36,7 @@ const ProductDetails = () => {
         setSelectedSize(selectedSize[0]);
     }
 
-    const handleAddCart = () => {
+    const handleAddCart = async () => {
         const selectCar = {
             name: selectedCar.title,
             asset: selectedColor.asset,
@@ -43,7 +45,7 @@ const ProductDetails = () => {
             price: selectedSize.price
         }
 
-        fetch(`http://localhost:5000/addCart`, {
+        await fetch(`https://swift-star-server-side.vercel.app/addCart`, {
             method: "POST", // or 'PUT'
             headers: {
                 "Content-Type": "application/json",
@@ -57,15 +59,14 @@ const ProductDetails = () => {
                 // refetch();
                 // toast.success("Add Item success");
             });
-
-        // console.log(selectCar);
     }
+
+    console.log(selectedCar);
+
 
     if (!selectedCar || !selectedColor || !selectedSize) {
         return <Loading></Loading>
     }
-
-
 
     return (
         <div className='flex flex-col lg:flex-row items-center lg:items-start lg:justify-between pt-5 px-10 lg:px-14'>

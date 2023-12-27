@@ -1,20 +1,20 @@
 [
     {
         "id": "1",
-        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png",
+        "asset": "https://i.ibb.co/nP30Tdb/Screenshot-2023-12-25-002307.png",
         "title": "Model S",
         "colorVariation": [
             {
                 "id": "White",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/9ndxgmq/Screenshot-2023-12-25-003251.png"
             },
             {
                 "id": "Black",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/pJffTvW/Screenshot-2023-12-25-003406.png"
             },
             {
                 "id": "Red",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/7RFzKbB/Screenshot-2023-12-25-003520.png"
             }
         ],
         "motorSizeVariation": [
@@ -34,20 +34,20 @@
     },
     {
         "id": "2",
-        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3.png",
+        "asset": "https://i.ibb.co/FK6R3Cs/Screenshot-2023-12-25-002608.png",
         "title": "Model 3",
         "colorVariation": [
             {
                 "id": "White",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/9ndxgmq/Screenshot-2023-12-25-003251.png"
             },
             {
                 "id": "Black",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/pJffTvW/Screenshot-2023-12-25-003406.png"
             },
             {
                 "id": "Red",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/7RFzKbB/Screenshot-2023-12-25-003520.png"
             }
         ],
         "motorSizeVariation": [
@@ -67,20 +67,20 @@
     },
     {
         "id": "3",
-        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-X.png",
+        "asset": "https://i.ibb.co/Smn9kMd/Screenshot-2023-12-25-002913.png",
         "title": "Model X",
         "colorVariation": [
             {
                 "id": "White",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/9ndxgmq/Screenshot-2023-12-25-003251.png"
             },
             {
                 "id": "Black",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/pJffTvW/Screenshot-2023-12-25-003406.png"
             },
             {
                 "id": "Red",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/7RFzKbB/Screenshot-2023-12-25-003520.png"
             }
         ],
         "motorSizeVariation": [
@@ -100,20 +100,20 @@
     },
     {
         "id": "4",
-        "asset": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png",
+        "asset": "https://i.ibb.co/L5cgnHx/Screenshot-2023-12-25-003041.png",
         "title": "Model Y",
         "colorVariation": [
             {
                 "id": "White",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/9ndxgmq/Screenshot-2023-12-25-003251.png"
             },
             {
                 "id": "Black",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PBSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/pJffTvW/Screenshot-2023-12-25-003406.png"
             },
             {
                 "id": "Red",
-                "asset": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS13,$PR01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&"
+                "asset": "https://i.ibb.co/7RFzKbB/Screenshot-2023-12-25-003520.png"
             }
         ],
         "motorSizeVariation": [

@@ -5,7 +5,7 @@ const AddCart = () => {
     const [cartCars, setCartCars] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/addCart')
+        fetch('https://swift-star-server-side.vercel.app/addCart')
             .then(res => res.json())
             .then(data => setCartCars(data))
     }, []);
@@ -19,7 +19,7 @@ const AddCart = () => {
     return (
         <div className='px-10 lg:px-14'>
             {
-                cartCars.map(car =>
+                cartCars?.map(car =>
                     <div className='w-full md:w-8/12  mx-auto flex flex-col md:flex-row gap-5 pt-5 bg-zinc-100 hover:bg-purple-100 rounded-lg p-5 my-5'>
                         <div className='w-full lg:w-6/12 rounded-lg'>
                             <img className='w-full' src={car.asset} alt="" />
