@@ -5,7 +5,7 @@ const AddCart = () => {
     const [cartCars, setCartCars] = useState([]);
 
     useEffect(() => {
-        fetch('https://swift-star-server-side.vercel.app/addCart')
+        fetch('https://swiftstar-server-side-production.up.railway.app/addCart')
             .then(res => res.json())
             .then(data => setCartCars(data))
     }, []);

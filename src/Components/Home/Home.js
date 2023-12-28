@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom';
 import Loading from '../Loading/Loading';
 
 const Home = () => {
-    const [products, setProducts] = useState([]);
+    const [products, setProducts] = useState();
 
     useEffect(() => {
-        fetch('https://swift-star-server-side.vercel.app/cars')
+        console.log('products');
+        fetch('https://swiftstar-server-side-production.up.railway.app/cars')
             .then(res => res.json())
             .then(data => setProducts(data))
-    }, []);
+    }, [products]);
 
     console.log(products);
 

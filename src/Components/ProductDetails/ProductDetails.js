@@ -8,12 +8,12 @@ const ProductDetails = () => {
     const { productDetailsId } = useParams();
     // console.log(productDetailsId);
 
-    const [selectedCar, setSelectedCar] = useState({});
+    const [selectedCar, setSelectedCar] = useState();
     const [selectedColor, setSelectedColor] = useState({});
     const [selectedSize, setSelectedSize] = useState({});
 
     useEffect(() => {
-        fetch('https://swift-star-server-side.vercel.app/cars')
+        fetch('https://swiftstar-server-side-production.up.railway.app/cars')
             .then(res => res.json())
             .then(async data => {
                 const selectedCar = await data.filter(car => car.id === productDetailsId);
@@ -45,7 +45,7 @@ const ProductDetails = () => {
             price: selectedSize.price
         }
 
-        await fetch(`https://swift-star-server-side.vercel.app/addCart`, {
+        await fetch(`https://swiftstar-server-side-production.up.railway.app/addCart`, {
             method: "POST", // or 'PUT'
             headers: {
                 "Content-Type": "application/json",
