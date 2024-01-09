@@ -11,7 +11,10 @@ const Home = () => {
         console.log('products');
         fetch('https://swiftstar-server-side-production.up.railway.app/cars')
             .then(res => res.json())
-            .then(data => setProducts(data))
+            .then(data => {
+                setProducts(data);
+                
+            })
     }, [products]);
 
     console.log(products);
@@ -23,6 +26,7 @@ const Home = () => {
     // }, []);
 
     if (!products) {
+        console.log(products);
         return <Loading></Loading>
     }
 

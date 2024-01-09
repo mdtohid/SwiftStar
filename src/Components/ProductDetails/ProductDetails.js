@@ -11,6 +11,7 @@ const ProductDetails = () => {
     const [selectedCar, setSelectedCar] = useState();
     const [selectedColor, setSelectedColor] = useState({});
     const [selectedSize, setSelectedSize] = useState({});
+    // console.log(selectedColor);
 
     useEffect(() => {
         fetch('https://swiftstar-server-side-production.up.railway.app/cars')
@@ -31,9 +32,11 @@ const ProductDetails = () => {
     }
 
     const handleMotorSize = async (size) => {
-        console.log(size)
+        console.log(size);
+        // console.log(size);
         const selectedSize = await selectedCar.motorSizeVariation.filter(car => car.id === size);
         setSelectedSize(selectedSize[0]);
+        // console.log(selectedSize.id === carMotor.id)
     }
 
     const handleAddCart = async () => {
@@ -61,12 +64,12 @@ const ProductDetails = () => {
             });
     }
 
-    console.log(selectedCar);
-
+    // console.log(selectedCar);
 
     if (!selectedCar || !selectedColor || !selectedSize) {
         return <Loading></Loading>
     }
+    console.log(selectedSize.id);
 
     return (
         <div className='flex flex-col lg:flex-row items-center lg:items-start lg:justify-between pt-5 px-10 lg:px-14'>
@@ -86,17 +89,17 @@ const ProductDetails = () => {
                 <div className='mt-14 flex flex-col items-center'>
                     <h3 className='text-3xl font-semibold '>Paint</h3>
                     <div className='mt-5 mb-1'>
-                        <button className={`w-fit border-4 ${selectedColor.id === "White" && 'border-[#3e6ae1]'} focus:border-[#3e6ae1] p-1 rounded-full`} onClick={() => handleColorPaint("White")}>
+                        <button className={`w-fit border-4 ${selectedColor.id === "White" && 'border-[#3e6ae1]'} p-1 rounded-full`} onClick={() => handleColorPaint("White")}>
                             <p className='w-10 h-10 bg-[#cccccc] rounded-full'>
                             </p>
                         </button>
 
-                        <button className='w-fit border-4 focus:border-[#3e6ae1] p-1 rounded-full' onClick={() => handleColorPaint("Black")}>
+                        <button className={`w-fit border-4 ${selectedColor.id === "Black" && 'border-[#3e6ae1]'} p-1 rounded-full`} onClick={() => handleColorPaint("Black")}>
                             <p className='w-10 h-10 bg-[#08080a] rounded-full'>
                             </p>
                         </button>
 
-                        <button className='w-fit border-4 focus:border-[#3e6ae1] p-1 rounded-full' onClick={() => handleColorPaint("Red")}>
+                        <button className={`w-fit border-4 ${selectedColor.id === "Red" && 'border-[#3e6ae1]'} p-1 rounded-full`} onClick={() => handleColorPaint("Red")}>
                             <p className='w-10 h-10 bg-red-700 rounded-full'>
                             </p>
                         </button>
@@ -111,7 +114,7 @@ const ProductDetails = () => {
                             <div className='w-full my-5'>
                                 <p className='font-semibold mb-1'>{carMotor.title}</p>
                                 <button key={index}
-                                    className={`flex justify-between w-full border-4 border-slate-500 border-rounded text-slate-500 focus:border-[#3e6ae1] focus:text-black`} onClick={() => handleMotorSize(carMotor.id)}>
+                                    className={`flex justify-between w-full border-4 border-slate-500 border-rounded text-slate-500 ${selectedSize.id === carMotor.id && '!border-[#3e6ae1] !text-black'}`} onClick={() => handleMotorSize(carMotor.id)}>
                                     <span>{selectedCar.title}</span>
                                     <span>{carMotor.price}</span>
                                 </button>
